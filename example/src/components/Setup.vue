@@ -9,7 +9,7 @@
 import { defineComponent, onMounted, ref, watch } from "vue";
 import useCounter from "@/composables/useCounter";
 export default defineComponent({
-  name: "HelloWorld",
+  name: "Setup",
   props: {
     msg: String,
   },
